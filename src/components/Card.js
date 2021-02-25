@@ -39,6 +39,8 @@ const Card = () => {
             <span className="techstack">ETL</span>
             &nbsp;
             <span className="techstack">ETL</span>
+            &nbsp;
+            <span className="techstack">ETL</span>
           </div>
         </div>
       </a>

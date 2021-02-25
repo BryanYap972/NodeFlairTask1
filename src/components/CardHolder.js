@@ -5,8 +5,8 @@ import Card from "./Card";
 
 const CardHolder = () => {
   return (
-    <div className="container flex justify-content-center">
-      <div className="row">
+    <div className="container">
+      <div className="gutter-2 row">
         <Card />
         <Card />
         <Card />
