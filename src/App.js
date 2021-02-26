@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./style/CardHolder.css";
+import "./App.css";
 import CardHolder from "./components/CardHolder";
 
 const App = () => {

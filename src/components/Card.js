@@ -18,11 +18,11 @@ const Card = () => {
               <div className="title-role">Data Engineer</div>
             </div>
           </div>
-          <div className="information-container flex justify-content-center">
-            <div className="information-timestamp float-left">1 minute ago</div>
-            <div className="information-type float-right">Data</div>
+          <div className="information-container">
+            <div className="information-timestamp">1 minute ago</div>
+            <div className="information-type">Data</div>
           </div>
-          <div className="line-container flex justify-content-center">
+          <div className="line-container">
             <hr></hr>
           </div>
           <div className="techstack-container">

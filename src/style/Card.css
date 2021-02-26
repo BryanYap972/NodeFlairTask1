@@ -1,7 +1,8 @@
 .card {
   width: 100%;
-  min-height: 21rem;
-  margin-bottom: 5%;
+  min-width: 300px;
+  min-height: 336px;
+  margin-bottom: 3%;
   border-radius: 20px;
 }
 
@@ -16,6 +17,12 @@
   justify-content: center;
 }
 
+.image {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 4px;
+}
+
 .title-container {
   padding-left: 5%;
   padding-bottom: 10%;
@@ -27,17 +34,19 @@
   color: #3a3a3a;
 }
 
-.image {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 4px;
-}
-
 .title-role {
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   font-weight: bold;
   font-size: 19px;
   color: #3a3a3a;
+}
+
+.information-container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  flex: auto;
+  justify-content: center;
 }
 
 .information-timestamp {
@@ -46,6 +55,7 @@
   color: #838383;
   font-style: italic;
   padding-top: 2%;
+  float: left;
 }
 
 .information-type {
@@ -55,33 +65,16 @@
   background-color: #ddf7e9;
   font-weight: 600;
   border-radius: 5px;
-  padding: 2%;
-}
-
-.main {
-  width: 100vw;
-  height: 100vh;
-  min-height: 1000px;
-  background-color: bisque;
-}
-
-.container {
-  max-width: 71.25rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5%;
-}
-
-.information-container {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 5px;
+  float: right;
 }
 
 .line-container {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  flex: auto;
+  justify-content: center;
 }
 
 .techstack-container {
@@ -124,16 +117,6 @@ a {
 
   .card {
     width: 100%;
-    min-height: 15rem;
+    min-height: 240px;
   }
-}
-
-.gutter-2.row {
-  margin-right: -1px;
-  margin-left: -1px;
-}
-.gutter-2 > [class^="col-"],
-.gutter-2 > [class^=" col-"] {
-  padding-right: 5px;
-  padding-left: 5px;
 }
